@@ -1,20 +1,7 @@
-This is your group repo for your final project for COGS108.
+# State-Level Effect of Anti-LGBTQ Laws on General Mental Health
 
-This repository is private, and is only visible to the course instructors and your group mates; it is not visible to anyone else.
+There has been a surge in anti-LGBTQ legislation in the United States. A Trevor Project survey revealed that this legislation was triggering anxiety and negatively impacting the mental health of LGBTQ youth, especially that of transgender individuals. This led our group to wonder if there exists a relationship between the number of these laws proposed per year by state and the consequent mental health outcomes of the state’s general population. We examined data from the years 2020 to 2023, incorporating additional confounder data on mental health facility access, poverty levels, and healthcare workforce shortages. We also examined subgroups based on age (those less than 18 years as well as over 18 years old). Finally, we combined these data to perform multilinear regression, predicting each mental health issue’s risk from the number of yearly proposed bills and a corresponding confounder for that year. We repeated this for each year and subgroup.
 
-Template notebooks for each component are provided. Only work on the notebook prior to its due date. After each submission is due, move onto the next notebook (For example, after the proposal is due, start working in the Data Checkpoint notebook). 
+When controlling for the number of mental health facilities in a state, the number of anti-LGBTQ bills proposed per state in 2020 had a small but significant effect on risk of psychotic episodes, trauma, and PTSD in the general population. Results for suicidal ideation and severe depression were generally not found to be significant in relation to the number of anti-LGBTQ bills per year. There was no significant effect found for any mental disorder among the youth population. The adult group, however, showed small but highly significant effects for numbers at risk of psychotic episodes, trauma, PTSD, and severe depression. For other years (2021-2023), we did not find any significant relationships between the number of laws and mental health outcomes. Only the relationship between psychotic episode risk and number of laws was significant among adults in 2023.
 
-This repository will be frozen on the final project due date. No further changes can be made after that time.
-
-Your project proposal and final project will be graded based solely on the corresponding project notebooks in this repository.
-
-Template Jupyter notebooks have been included, with your group number replacing the XXX in the following file names. For each due date, make sure you have a notebook present in this repository by each due date with the following name (where XXX is replaced by your group number):
-
-- `ProjectProposal_groupXXX.ipynb`
-- `DataCheckpoint_groupXXX.ipynb`
-- `EDACheckpoint_groupXXX.ipynb`
-- `FinalProject_groupXXX.ipynb`
-
-This is *your* repo. You are free to manage the repo as you see fit, edit this README, add data files, add scripts, etc. So long as there are the four files above on due dates with the required information, the rest is up to you all. 
-
-Also, you are free and encouraged to share this project after the course and to add it to your portfolio. Just be sure to fork it to your GitHub at the end of the quarter!
+In short, further research is required to examine if this relationship is significant over time. Our findings from 2020 suggest that with adequate control data, such a trend could exist. Overall, effect sizes were quite small, which means that even if effects are significant, they may not be exceptionally severe.
